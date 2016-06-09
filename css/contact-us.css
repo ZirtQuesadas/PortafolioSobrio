@@ -1,0 +1,121 @@
+
+/*INICIA contact-us.html  */
+#contact-us .container-fluid{
+  padding: 20px 40px;
+}
+#contact-us .block{
+  display: block;
+}
+#contact-us h1, p{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  padding: 0 15px;
+}
+/*FIN /contact-us.html */
+/*  INICIO about-us.html  */
+#about-us .container-fluid{
+  padding: 20px 40px;
+}
+#about-us .block{
+  display: block;
+}
+#about-us h1, p{
+  text-align: left;
+  position: relative;
+  top: 50px;
+  padding: 10px 15px;
+}
+/* propiedades de imágenes e iconos de about-us.html*/
+.round-image{
+  border-radius: 200px;
+  border: #fff 5px solid;
+}
+.circle {
+  border-radius: 100%;
+}
+.profile-charge{
+  /*cambiar fuente*/
+}
+/* propiedades de imágenes e iconos de about-us.html*/
+.full{
+  width: 100vw;
+  height: auto;
+  margin: 0 0;
+} 
+.background{
+  width: 100%;
+  min-height: 500px;
+}
+.uno{
+  background-image: url("../images/background1.jpg");
+}
+.vertical-centered{
+  vertical-align: center;
+}
+.logo{
+  position: relative;
+  padding-top: 5vh;
+}
+.dos{
+  background-image: url("../images/tile1.png");
+}
+.tres
+  {
+    background-color: white;
+  }
+
+.cuatro
+  {
+    background-image: url("../images/tile2.png");
+  }
+
+.profilephoto
+  {
+    padding: 5px;
+    border: solid gray 1px;
+    margin-left: -70px;
+  }
+.roundIMG
+  {
+    height: 200px;
+    width: 200px;
+    border-radius: 300px;
+    border: #ad1f8a solid 1px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+.letra
+  {
+    font-size: 22px;
+    text-align: left;
+    color: gray;
+  }
+
+/* FIN  /about-us.html  */
+
+/*media query para responsive de formulario contact-us.html*/
+@media (min-width: 346px) and (max-width: 767px){
+#contact-us .container {
+    width: 230px;
+    margin-top: 60px;
+}
+@media (min-width: 768px){
+#contact-us .container {
+    width: 668px;
+    margin-top: 100px;
+}
+/* FIN media query para responsive de /contact-us.html*/
+
+/*media query para responsive de about-us.html*/
+@media (min-width: 768px){
+#about-us .container {
+    width: 668px;
+    margin-top: 100px;
+}
+/*FIN media query para responsive de about-us.html*/
+
+/*  /about-us.html  */
+
+/*---------------------------------FIN CÓDIGO BET -------------------------------------------*/

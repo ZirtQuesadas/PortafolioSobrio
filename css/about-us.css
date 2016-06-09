@@ -1,0 +1,21 @@
+.background{
+  width: 100%;
+  min-height: 500px;
+}
+.uno{
+  background-image: url("../images/background1.jpg");
+}
+.dos{
+  background-image: url("../images/tile1.png");
+}
+.tres{
+  background-color: white;
+}
+.cuatro{
+  background-image: url("../images/tile2.png");
+}
+.ProfilePic{
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
